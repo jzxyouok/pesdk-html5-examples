@@ -1,0 +1,17 @@
+{
+  "name": "pesdk-browserify-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p build && ./node_modules/.bin/browserify main.js -o build/application.js && npm run copy-assets && npm run copy-stylesheets",
+    "copy-assets": "cp -R node_modules/photoeditorsdk/assets build/assets",
+    "copy-stylesheets": "cp -R node_modules/photoeditorsdk/css build/css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "photoeditorsdk": "git://github.com/imgly/pesdk-html5-build-temp.git",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  }
+}
