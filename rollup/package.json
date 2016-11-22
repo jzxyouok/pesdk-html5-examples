@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "photoeditorsdk": "git://github.com/imgly/pesdk-html5-build-temp.git",
+    "photoeditorsdk": "git://github.com/imgly/pesdk-html5-build.git#v3.5.3",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "rollup": "^0.36.3",

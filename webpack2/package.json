@@ -9,7 +9,7 @@
   "dependencies": {
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.26.0",
-    "photoeditorsdk": "git://github.com/imgly/pesdk-html5-build-temp.git",
+    "photoeditorsdk": "git://github.com/imgly/pesdk-html5-build.git#v3.5.3",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
     "style-loader": "^0.13.1",
