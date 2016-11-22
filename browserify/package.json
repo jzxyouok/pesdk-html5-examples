@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p build && ./node_modules/.bin/browserify main.js -o build/application.js && npm run copy-assets && npm run copy-stylesheets",
+    "build": "mkdir -p build && ./node_modules/.bin/browserify main.js -o build/application.js && npm run copy-assets && npm run copy-css",
     "copy-assets": "cp -R node_modules/photoeditorsdk/assets build/assets",
-    "copy-stylesheets": "cp -R node_modules/photoeditorsdk/css build/css"
+    "copy-css": "cp -R node_modules/photoeditorsdk/css build/css"
   },
   "license": "MIT",
   "dependencies": {
